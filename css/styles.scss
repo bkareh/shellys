@@ -1,0 +1,165 @@
+$color-primary: #FFC72C;
+$color-secondary: #dc3545;
+$color-pale: #146A34;
+$color-mid: #146A34;
+$color-dark: #292b2c;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Helvetica Neue", sans-serif;
+$special-font: "Grand Hotel", cursive;
+
+
+body {
+    background-color: #e9ecef ;
+    font-family: $body-font;
+    color: white;
+    margin-top: 15%;
+}
+
+main {
+    margin-top: 10%;
+}
+
+p {
+    font-family: $body-font;
+    color: $color-dark;
+}
+
+h1, h2{
+    font-family: $header-font;
+}
+
+h3, h4, h5, h6 {
+    font-family: $special-font;
+}
+
+h1 {
+    color: $color-dark;
+}
+
+h2 {
+    color: $color-primary;
+}
+
+h3 {
+    color: $color-primary;
+    font-size: 4em;
+}
+
+h4 {
+    font-size: 6em;
+    text-align: center;
+}
+
+h6 {
+    font-size: 3em;
+}
+
+
+header {
+    h2 {
+        color: $color-pale;
+    }
+}
+
+a {
+    color: $color-primary;
+}
+a:hover {
+    color: $color-primary;
+}
+
+
+#menu {
+    color: $color-dark;
+    text-align: center;
+}
+
+.button {
+    border-radius: 30px;
+    border-color: $color-secondary;
+}
+
+
+.btn-link {
+    color: $color-primary;
+}
+
+.site-footer {
+    color: $color-secondary;
+    background-color: black;
+    max-height: 18ch;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.form-group {
+    
+    .form-header {
+    background-color: $color-secondary;
+    padding-top: 2em;
+}
+
+    #labeltext {
+    color: black;
+}
+}
+
+.navbar {
+    
+    position: fixed;
+    background-color: #292b2c;
+    font-family: $header-font;
+    
+}
+
+
+
+.carousel {
+    border: solid $color-secondary;
+    p {
+        color: whitesmoke;
+    }
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+*  {
+box-sizing: border-box;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-left: 2%;
+}
+.card {
+    width: 175px;
+    margin: 10px;
+        h5{color: $color-secondary;
+        font-size: 3em;
+        }
+        #wider {
+            width: 100%;
+        }
+}
+
+.card img {
+ max-width: 100%;
+}
+.card .text {
+    padding: 0 20px 20px;
+}
+.card .text > button {
+    background: $color-dark;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    
+}
+.card:nth-child(1) {
+    width: 370px;
+}
